@@ -1,0 +1,81 @@
+:root {
+    --main: #407BFF;
+    --dark: #0235a4;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: var(--main);
+}
+img {
+    width: 100%;
+}
+.container {
+    background: var(--dark);
+    max-width: 1200px;
+    margin: 50px auto 0;
+    border-radius: 15px;
+}
+.image img {
+    width: 350px;
+}
+span {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: auto;
+    border: 1px solid var(--dark);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+i.fi {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    color: var(--dark);
+}
+.acardion_content {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item {
+    background: var(--main);
+    border-radius: 5px;
+    color: rgb(0, 38, 121);
+    margin: 0 0 0 20px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s;
+}
+li.active {
+    height: 110px;
+}
+li.active span {
+    rotate: 180deg;
+}
+.acardions .item {
+    margin: 15px 0;
+}
+.item .name {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+}
+.item .desc {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 10px;
+}
