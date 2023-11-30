@@ -22,7 +22,7 @@ img {
     border-radius: 15px;
 }
 .image img {
-    width: 350px;
+    width: 500px;
 }
 span {
     align-items: center;
@@ -43,10 +43,11 @@ i.fi {
     color: var(--dark);
 }
 .acardion_content {
-    padding: 50px;
+    padding: 0 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 .item {
     background: var(--main);
