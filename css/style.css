@@ -10,8 +10,8 @@
     box-sizing: border-box;
 }
 body {
-    background: var(--main);
-    background-image: url(https://i.pinimg.com/originals/a2/8a/06/a28a0609919893d350d803fd3a16428c.png);
+    background: url(https://i.pinimg.com/originals/a2/8a/06/a28a0609919893d350d803fd3a16428c.png) center center fixed;
+    background-size: cover;
 }
 img {
     width: 100%;
