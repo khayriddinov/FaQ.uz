@@ -1,6 +1,6 @@
 :root {
-    --main: #407BFF;
-    --dark: #0235a4;
+    --main: #6a040f;
+    --dark: #d00000;
 }
 * {
     margin: 0;
@@ -11,6 +11,7 @@
 }
 body {
     background: var(--main);
+    background-image: url(https://i.pinimg.com/originals/a2/8a/06/a28a0609919893d350d803fd3a16428c.png);
 }
 img {
     width: 100%;
@@ -18,7 +19,7 @@ img {
 .container {
     background: var(--dark);
     max-width: 1200px;
-    margin: 50px auto 0;
+    margin: 200px auto 0;
     border-radius: 15px;
 }
 .image img {
@@ -52,12 +53,15 @@ i.fi {
 .item {
     background: var(--main);
     border-radius: 5px;
-    color: rgb(0, 38, 121);
+    color: #b0b0b0;
     margin: 0 0 0 20px;
     height: 50px;
     overflow: hidden;
     cursor: pointer;
     transition: .2s;
+}
+.item:hover {
+    color: #fff;
 }
 li.active {
     height: 110px;
